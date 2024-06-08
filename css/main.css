@@ -19,13 +19,13 @@ body {
   text-align: center;
 }
 .flag {
-  width: 200px;
-  margin: 10px 0;
+  width: 160px;
+  margin: 5px 0;
 }
 .wrapper {
   width: 100%;
-  height: auto;
-  padding: 20px 0;
+  height: 100%;
+  padding: 10px 0;
 }
 .active {
   display: block;
@@ -58,7 +58,7 @@ h1 {
 h2 {
   font-size: 30px;
   margin-bottom: 10px;
-  margin-top: 20px;
+  margin-top: 10px;
   color: rgb(0, 113, 107);
 }
 small {
@@ -66,7 +66,7 @@ small {
   font-weight: 400;
 }
 .homeBtn {
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 15px 20px;
   border-radius: 10px;
   border: none;
