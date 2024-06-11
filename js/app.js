@@ -13,6 +13,7 @@ homeBtn_element.addEventListener('click', function () {
   if (homeWrapper_element.classList.contains('active')) {
     homeWrapper_element.classList.replace('active', 'deactive');
     detailsWrapper_element.classList.replace('deactive', 'active');
+    // document.body.classList.remove('bodyStyle');
   }
 });
 

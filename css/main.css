@@ -12,12 +12,13 @@ body {
   display: flex;
   justify-content: center;
   align-items: start;
+}
+.bodyStyle {
   background-image: url('./../images/spage1.jpg');
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
 }
-
 .wrapper {
   text-align: center;
   min-height: fit-content;
@@ -33,7 +34,7 @@ body {
 }
 h5 {
   font-size: 16px;
-  margin-bottom: 10px;
+  margin: 10px 0;
 }
 h3 {
   font-size: 22px;
@@ -60,7 +61,8 @@ small {
   font-size: 16px;
   font-weight: 400;
 }
-.homeBtn {
+.homeBtn,
+.rsvpBtn {
   margin-top: 10px;
   padding: 15px 20px;
   border-radius: 3px;
@@ -189,37 +191,33 @@ small {
 }
 
 .detailsWrapper {
-  /* background-color: lightblue; */
+  background-color: #72c4ffe0;
   width: 100%;
-  height: auto;
+  height: 100vh;
   padding: 20px 0;
 }
 .infoWrapper {
-  width: 100%;
+  width: 80%;
   height: fit-content;
   padding: 20px;
-  /* background-color: lightcoral; */
+  margin: auto;
+  text-align: center;
+  background-color: #ffffffad;
+  border-radius: 4px;
 }
-.rsvpBtn {
-  margin-top: 20px;
-  padding: 15px 20px;
-  border-radius: 10px;
-  border: none;
-  background-color: lightblue;
-  color: #535353;
-  box-shadow: 0 0 10px 0 black;
-}
+
 .locationBox,
 .dayBox,
 .timeBox {
   height: 80px;
 }
 
-/* .formWrapper {
-} */
 .formWrapper form {
   margin: 1px;
   text-align: start;
+  background-color: #fff;
+  height: 100vh;
+  width: 100%;
 }
 label {
   font-size: 16px;
