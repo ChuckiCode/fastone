@@ -198,9 +198,9 @@ small {
 }
 .infoWrapper {
   width: 80%;
-  height: fit-content;
+  min-height: fit-content;
   padding: 20px;
-  margin: auto;
+  margin: 20px auto;
   text-align: center;
   background-color: #ffffffad;
   border-radius: 4px;
@@ -217,7 +217,9 @@ small {
   text-align: start;
   background-color: #fff;
   height: 100vh;
-  width: 100%;
+  width: 100vw;
+  overflow: hidden;
+  padding: 10px;
 }
 label {
   font-size: 16px;
